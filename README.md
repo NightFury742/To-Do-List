@@ -6,18 +6,18 @@ A to-do list to jot down your daily tasks
 I have made a simple web application that allows users to create a to-do list, save it in local storage, and display the list on the webpage. Users can mark items as done and remove them from the list.
 
 
-##Technologies Used:
+## Technologies Used:
 
 This application uses HTML, CSS, and JavaScript. It also utilizes the localStorage object to store the user's to-do list items.
 
 
-##Setup:
+## Setup:
 
 Download or clone this repository to your local machine.
 Open the index.html file in your web browser.
 
 
-##Functionality:
+## Functionality:
 
 1.The user can type a task into the input field and click the "Add" button or press the "Enter" key to add it to the list.
 
