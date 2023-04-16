@@ -7,15 +7,18 @@ I have made a simple web application that allows users to create a to-do list, s
 
 
 Technologies Used:
+
 This application uses HTML, CSS, and JavaScript. It also utilizes the localStorage object to store the user's to-do list items.
 
 
 Setup:
+
 Download or clone this repository to your local machine.
 Open the index.html file in your web browser.
 
 
 Functionality:
+
 1.The user can type a task into the input field and click the "Add" button or press the "Enter" key to add it to the list.
 
 2.The user can mark an item as done by clicking the "Done" button next to it. The item will be crossed out and its opacity will be reduced.
