@@ -1,0 +1,224 @@
+body {
+    min-height: 100vh;
+    overflow-x: 0;
+    overflow-y: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-image: linear-gradient(to right bottom, #974fb6, #8450bb, #6d51bf, #5053c3, #1d54c5);
+
+
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
+
+h1 {
+    background-image: linear-gradient(to right, #5c367f, #5d3c98, #5844b2, #484ece, #1259eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #5c367f, #5d3c98, #5844b2, #484ece, #1259eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.3rem;
+    margin-top: 10%;
+    margin-bottom: 1%;
+
+}
+
+.container {
+    width: 40rem;
+    height: auto;
+    min-height: 45rem;
+    box-shadow: 0px 0px 90px -10px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-bottom: 0.4%;
+    border-radius: 2rem;
+    padding-top: .1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #353240;
+
+}
+
+.write {
+    display: flex;
+    justify-content: space-between;
+    background-color: #26213d;
+    border-radius: 1rem;
+    margin-right: 2%;
+    padding: 2%;
+
+}
+
+#type {
+    width: 100%;
+    outline: none;
+    appearance: none;
+    border: none;
+    text-decoration: none;
+    background-color: #26213d;
+    font-size: 1.4rem;
+    padding: 0.8%;
+    border-radius: 1rem;
+    color: white;
+
+}
+
+
+#write-btn {
+    outline: none;
+    /* border-radius: .5rem; */
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 2%;
+    background-image: linear-gradient(to right, #5c367f, #5d3c98, #5844b2, #484ece, #1259eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#write-btn:hover{
+    opacity: 0.6;
+  
+}
+
+#write-btn:active{
+    opacity: 0.4;
+
+}
+
+
+.added-task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+    background-color: #1a1629;
+    border-radius: 1rem;
+    margin-right: 2%;
+    animation: fadeIn 1.2s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fadeout {
+    animation: fadeOut 0.6s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+.para {
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5%;
+
+}
+
+
+
+
+.done {
+    outline: none;
+    border-radius: .5rem;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0 0 0 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, #5c367f, #5d3c98, #5844b2, #484ece, #1259eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    transition: 0.4s;  
+
+}
+
+.remove{ 
+    outline: none;
+    border-radius: .5rem;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0 0 0 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, #a71c47, #af005e, #af007a, #a5039b, #8c28be);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    transition: 0.4s; 
+
+}
+
+.remove:hover{
+    opacity: 0.6;
+  
+}
+
+.done:hover{
+    opacity: 0.6;
+}
+
+
+
